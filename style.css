@@ -5,16 +5,6 @@
     box-sizing: border-box;
 }
 
-#logo {
-    font-family: 'Playfair display';
-    width: 128px;
-    height: 128px;
-    background-color: #fcd34d;
-    position: relative;
-    border-radius: 10px;
-    
-}
-
 body {
     font-family: 'Open Sans';
     display: flex;
@@ -25,15 +15,13 @@ body {
     height: 100vh;
 }
 
-#title {
+
+
+#logo-title {
     font-family: 'Playfair display';
-    font-size: 40px;
 }
 
-#text-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 128px;
+#title {
+    font-family: 'Playfair display';
+    font-size: 30px;    
 }
-    
