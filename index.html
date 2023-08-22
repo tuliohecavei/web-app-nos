@@ -7,10 +7,12 @@
         <link rel="stylesheet" href="style.css">
 
     <title>Encurtador de URL</title>
+
 <!--FONTE LOGOTIPO-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
 <!--FONTE TEXTOS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,35 +21,36 @@
 
     <body> 
         
-            
+            <!-- Logotipo topo-->
             <header>
-                <h2>nós.short</h2>
+                <h2 id="logotipo">nós.short</h2>
             </header>
             
+            <!-- Título principal da página-->
+            <div class="content">
+                <h1 id="title">nós.short</h1>
+                <p>O melhor encurtador de links</p>
+            </div>
             
-                <div class="content">
-                    <h1 id="title">nós.short</h1>
-                    <p>O melhor encurtador de links</p>
-                </div>
-            
-                <!-- Caixa de entrada de URL e botão -->
+            <!-- Caixa de URL e botão -->
+            <div class="search-bar">
                 <input class="input-url" id="input-url" type="text" placeholder="Insira um link para encurtar...">
                 <button class="btn">
-                    Button
+                        Button
                 </button>
+            </div>
             
-            
-                <!-- Botão de acesso ao histórico-->
+            <!-- Botão de acesso ao histórico-->
+            <div id="historico">
                 <p>Visualizar os últimos links encurtados</p>
+                
+            </div>
             
-            
-                <!-- Legenda -->
+            <!-- Legenda -->
 
             <footer>
                 <p>Todos os direitos reservados @ Nosso Olhar Solidário 2023</p>
             </footer>
-            
-
-           
+             
     </body>
 </html>
