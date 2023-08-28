@@ -12,27 +12,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">  
+    <link rel="shortcut icon" href="imagens/icons8-url-infographic-96.png" type="image/x-icon">
 </head>
 <body>
-    <abbr title="Nosso Olhar Solidário">
-        <div class="container-logotipo">
+    <header>
             <h2>nós.short</h2>
-        </div>
-    </abbr>
-    <div class="container-titulo">
-        <h1>nós.short</h1>
-        <p>O melhor encurtador de endereços</p>
-    </div>
-    <div class="container-shorter">
-        <input type="input-url" id="input-url" type="text" placeholder="Insira um link para encurtar...">
-        <button class="button"><img width="30" height="30" src="imagens/url.png" alt="link"/></button>
-    </div>
-    <div class="historico"
-        <p>Visualizar os últimos links encurtados</p>
-    </div>
-    <div class="rodape">
+    </header>
+    <main>
+        <section class="titulo">
+            <h1>nós.short</h1>
+            <p>O melhor encurtador de endereços</p>
+        </section>
+        <section class="shorter">
+            <input type="input-url" id="input-url" type="text" placeholder="Insira um link para encurtar...">
+            <button class="button" onclick="encurtar()"><img width="30" height="30" src="imagens/url.png" alt="link"/></button>
+        </section>
+        <section class="historico">
+            <a>Visualizar os últimos links encurtados</a>
+    </section>
+    </main>
+    <footer>
         <p>Todos os direitos reservados @ <a href="https://nossoolharsolidario.com.br/" target="_blank" rel="external">Nosso Olhar Solidário</a> 2023</p>
-    </div>
-
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 @charset "UTF-8"
 * {
+    background-color: rgb(244 244 245);
     font-family: sans-serif;
     width: 100%;
     margin: 0 auto;
@@ -16,7 +17,8 @@ body {
     font-family: 'Open sans';
     color: #09090B;
 }
-.container-logotipo {
+header {
+    font-family: 'Playfair Display';
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -27,13 +29,7 @@ body {
     background-color: #fcd34d;
     border-radius: 8px;
 }
-h2 {
-   font-family: 'Playfair Display';
-}
-abbr {
-    text-decoration: none;
-}
-.container-titulo {
+.titulo {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -48,7 +44,7 @@ p {
     margin-top: 0px;
     font-size: 16px;
 }
-.container-shorter {
+.shorter {
     display: flex;
     margin-top: 50px;
 }
@@ -85,12 +81,14 @@ button:active {
      margin-top: 15px;
      font-size: 12px;
      align-items: center;
+     text-align: center;
 }
-historico:hover {
+.historico:hover {
     font-weight: bold;
+    cursor: pointer;
 
 }
-.rodape {
+footer {
     margin-top: auto;
     text-align: center;
     padding-top: 30px;
