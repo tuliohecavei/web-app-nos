@@ -1,38 +1,33 @@
-@charset "UTF-8"
 * {
-    background-color: rgb(244 244 245);
-    font-family: sans-serif;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;    
+    
 }
 body {
-    background-color: #ffffff;
-    width: auto;
-    height: 97vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Open sans';
-    color: #09090B;
+    background-color: rgb(244 244 245);
 }
 header {
-    font-family: 'Playfair Display';
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    height: 128px;
-    width: 128px;
-    background-color: #fcd34d;
-    border-radius: 8px;
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    left: 0;
+    width: 100%;
+
+}
+footer {
+    font-family: 'Open sans';
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+    left: 0;
+    width: 100%;
+}
+main {
+    text-align: center;
+    width: 100%;
 }
 .titulo {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-top: 35vh;
 }
 h1 {
     font-family: 'Playfair Display';
@@ -41,22 +36,46 @@ h1 {
     margin-bottom: 0px;
 }
 p {
+    font-family: 'Open sans';
     margin-top: 0px;
     font-size: 16px;
 }
 .shorter {
+    margin-top: 10vh;
     display: flex;
-    margin-top: 50px;
+    justify-content: center;
 }
 #input-url {
     width: 474px;
     height: 46px;
-    margin-right: 15px;
+    margin-right: 10px;
     border-radius: 8px;
     padding-left: 12px;
     cursor: text;
     border: solid 2px #d4d4d8;
     background-color: #fafafa;
+}
+.button {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #09090B;
+    cursor: pointer;
+    border: solid 2px #09090B;
+}
+.historico {
+    font-family: 'Open sans';
+    margin-top: 15px;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #09090B;
+}
+a:hover {
+    font-weight: bold;
 }
 .button:hover {
     background-color: #fcd34d;
@@ -67,36 +86,4 @@ button:active {
     background-color: #92400e;
     border-color: #92400e;
     cursor: pointer;
-}
-.button {
-    margin-top: 2px;
-    height: 46px;
-    width: 46px;
-    border-radius: 8px;
-    background-color: #09090B;
-    cursor: pointer;
-    border: solid 2px #09090B;
-}
-.historico {
-     margin-top: 15px;
-     font-size: 12px;
-     align-items: center;
-     text-align: center;
-}
-.historico:hover {
-    font-weight: bold;
-    cursor: pointer;
-
-}
-footer {
-    margin-top: auto;
-    text-align: center;
-    padding-top: 30px;
-}
-a {
-    text-decoration: none;
-    color: #09090B;
-}
-a:hover {
-    font-weight: bold;
 }

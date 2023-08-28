@@ -3,37 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nós.short</title>
+    <title>nós.short</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-<!--FONTE TEXTOS-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">  
-    <link rel="shortcut icon" href="imagens/icons8-url-infographic-96.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> 
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-            <h2>nós.short</h2>
+        <svg width="128" height="128">
+            <rect width="128" height="128" rx="8" fill="#fcd34d" x="0" y="0"></rect> 
+            <text fill="#09090b" font-size="25" font-family="Playfair Display" x="8" y="72">nós.short</text>
+        </svg>
     </header>
+    
     <main>
         <section class="titulo">
             <h1>nós.short</h1>
             <p>O melhor encurtador de endereços</p>
         </section>
+
         <section class="shorter">
             <input type="input-url" id="input-url" type="text" placeholder="Insira um link para encurtar...">
-            <button class="button" onclick="encurtar()"><img width="30" height="30" src="imagens/url.png" alt="link"/></button>
+            <button class="button" onclick="encurtar()"><img width="30" height="30" src="imagens/url.png" alt=""></button>
         </section>
+
         <section class="historico">
-            <a>Visualizar os últimos links encurtados</a>
-    </section>
+            <a href="#">Visualizar os últimos links encurtados</a>
+        </section>
+
     </main>
+
     <footer>
         <p>Todos os direitos reservados @ <a href="https://nossoolharsolidario.com.br/" target="_blank" rel="external">Nosso Olhar Solidário</a> 2023</p>
     </footer>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
