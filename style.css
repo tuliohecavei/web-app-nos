@@ -1,14 +1,13 @@
-* {
-    
-}
 body {
     background-color: rgb(244 244 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 header {
     text-align: center;
-    position: fixed;
     top: 0;
-    margin-top: 10px;
+    margin-top: 15px;
     left: 0;
     width: 100%;
 
@@ -16,10 +15,10 @@ header {
 footer {
     font-family: 'Open sans';
     text-align: center;
-    position: fixed;
     bottom: 0;
-    margin-top: 10px;
+    margin-top: 24vh;
     left: 0;
+    padding: 0;
     width: 100%;
 }
 main {
@@ -27,7 +26,7 @@ main {
     width: 100%;
 }
 .titulo {
-    margin-top: 35vh;
+    margin-top: 15vh;
 }
 h1 {
     font-family: 'Playfair Display';
@@ -55,7 +54,7 @@ p {
     border: solid 2px #d4d4d8;
     background-color: #fafafa;
 }
-.button {
+#button {
     height: 46px;
     width: 46px;
     border-radius: 8px;
@@ -77,12 +76,12 @@ a {
 a:hover {
     font-weight: bold;
 }
-.button:hover {
+#button:hover {
     background-color: #fcd34d;
     border-color: #fcd34d;
     cursor: pointer;
 }
-button:active {
+#button:active {
     background-color: #92400e;
     border-color: #92400e;
     cursor: pointer;

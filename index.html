@@ -20,7 +20,7 @@
     <header>
         <svg width="128" height="128">
             <rect width="128" height="128" rx="8" fill="#fcd34d" x="0" y="0"></rect> 
-            <text fill="#09090b" font-size="25" font-family="Playfair Display" x="8" y="72">nós.short</text>
+            <text fill="#09090b" font-size="25" font-family="Playfair Display" x="9" y="70">nós.short</text>
         </svg>
     </header>
     
@@ -32,13 +32,13 @@
 
         <section class="shorter">
             <input type="input-url" id="input-url" type="text" placeholder="Insira um link para encurtar...">
-            <button class="button" onclick="encurtar()"><img width="30" height="30" src="imagens/url.png" alt=""></button>
+            <button id="button" ><img width="30" height="30" src="imagens/url.png" alt=""></button>
         </section>
 
         <section class="historico">
-            <a href="#">Visualizar os últimos links encurtados</a>
+            <button id="visualizarLinks">Visualizar os últimos links encurtados</button>
         </section>
-
+        <h2 id="links"></h2>
     </main>
 
     <footer>

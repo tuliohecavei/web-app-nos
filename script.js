@@ -1,7 +1,15 @@
-function encurtar() {
-    let url = document.getElementById("input-url").value;
-    if (!url) {
-        alert("É precisor inserir uma url para encurtar");
-        return;
-    }
-}
+'use strict'
+
+const linkDigitado = document.getElementById('input-url');
+const botaoEncurtar = document.getElementById('button');
+const botaoVisualizar = document.getElementById('visualizarLinks');
+const exibirLinks = document.getElementById('links');
+
+botaoEncurtar.addEventListener('click', function(){
+    localStorage.setItem('linkDigitado', linkDigitado.value);
+})
+
+botaoVisualizar.addEventListener('click', function(){
+    exibirLinks.innerHTML = localStorage.getItem('linkDigitado')
+})
+
