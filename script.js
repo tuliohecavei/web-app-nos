@@ -1,15 +1,21 @@
 'use strict'
 
-const linkDigitado = document.getElementById('input-url');
-const botaoEncurtar = document.getElementById('button');
-const botaoVisualizar = document.getElementById('visualizarLinks');
-const exibirLinks = document.getElementById('links');
+const botãoEncurtar = document.getElementById('button');
+document.getElementById('input-url')
 
-botaoEncurtar.addEventListener('click', function(){
-    localStorage.setItem('linkDigitado', linkDigitado.value);
-})
+const encurtar = async() => {
+  let urlEncurtar = document.getElementById('input-url').value;
+  if (!urlEncurtar) {
+      alert("É preciso inserir uma URL para encurtar");
+      return;  
+  }
+  let headers = {
+  "Content-Type": "application/json"
+  }
+  let result = await lib.url.temporary['@0.3.0'].create({
+    url: urlEncurtar // required
+  });
 
-botaoVisualizar.addEventListener('click', function(){
-    exibirLinks.innerHTML = localStorage.getItem('linkDigitado')
-})
+}
 
+botãoEncurtar.addEventListener('click', encurtar)

@@ -62,6 +62,10 @@ p {
     cursor: pointer;
     border: solid 2px #09090B;
 }
+#visualizarLinks {
+    border: none;
+    background-color: rgb(244, 244, 245);
+}
 .historico {
     font-family: 'Open sans';
     margin-top: 15px;
