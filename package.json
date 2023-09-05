@@ -1,11 +1,5 @@
 {
-  "name": "nos-short",
-  "version": "1.0.0",
-  "description": "Aplicativo web encurtador de links do processo seletivo Nosso Olhar Solidário",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Tulio Hecavei",
-  "license": "ISC"
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
